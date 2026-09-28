@@ -1,0 +1,79 @@
+{
+  "schema": "simplemono_export_stats_v1",
+  "dataset_kind": "real_otb_benchmark",
+  "split_name": "test",
+  "input_dir": "data_jiugong_o2g",
+  "bpm": 80.0,
+  "pos_resolution": 12,
+  "counts": {
+    "files_discovered": 20,
+    "files_written": 20,
+    "files_skipped": 0,
+    "sequences": 20
+  },
+  "tracks": {
+    "x": {
+      "sequences": 20,
+      "len_events": {
+        "count": 20,
+        "sum": 3102,
+        "min": 78,
+        "max": 324,
+        "mean": 155.1
+      },
+      "notes": {
+        "count": 20,
+        "sum": 3062,
+        "min": 76,
+        "max": 322,
+        "mean": 153.1
+      },
+      "span_pos": {
+        "count": 20,
+        "sum": 38556,
+        "min": 864,
+        "max": 4476,
+        "mean": 1927.8
+      },
+      "duration_80bpm": {
+        "bpm": 80.0,
+        "pos_resolution": 12,
+        "total_seconds": 2409.75,
+        "total_human": "40m10s",
+        "mean_seconds": 120.48750000000001
+      }
+    },
+    "x_orn": {
+      "sequences": 20,
+      "len_events": {
+        "count": 20,
+        "sum": 3910,
+        "min": 96,
+        "max": 437,
+        "mean": 195.5
+      },
+      "notes": {
+        "count": 20,
+        "sum": 3870,
+        "min": 94,
+        "max": 435,
+        "mean": 193.5
+      },
+      "span_pos": {
+        "count": 20,
+        "sum": 38556,
+        "min": 864,
+        "max": 4476,
+        "mean": 1927.8
+      },
+      "duration_80bpm": {
+        "bpm": 80.0,
+        "pos_resolution": 12,
+        "total_seconds": 2409.75,
+        "total_human": "40m10s",
+        "mean_seconds": 120.48750000000001
+      }
+    }
+  },
+  "skip_reason_counts": {}
+}

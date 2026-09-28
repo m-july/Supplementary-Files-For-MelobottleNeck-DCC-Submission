@@ -1,0 +1,42 @@
+{
+  "p_apply": 1.0,
+
+  "min_notes": 12,
+
+  "p_pitch_jitter": 0.02,
+  "pitch_jitter_max_semitones": 2,
+  "pitch_jitter_sigma": 1.0,
+
+  "p_boundary_shift": 0.02,
+  "boundary_shift_max_pos": 3,
+  "boundary_shift_require_dt_nonneg": true,
+
+  "p_merge": 0.04,
+  "merge_max_ops": 4,
+  "merge_max_gap_pos": 2,
+  "merge_max_overlap_pos": 3,
+  "merge_pick": "longer",
+  "merge_strict_range": true,
+
+  "p_delete": 0.01,
+  "delete_max_ops": 3,
+  "delete_strict_range": true,
+
+  "p_dur_jitter": 0.01,
+  "dur_jitter_max_delta": 2,
+  "p_dt_jitter": 0.01,
+  "dt_jitter_max_delta": 2,
+
+  "p_free_rhythm_seq": 0.10,
+  "p_dur_stretch": 0.02,
+  "dur_stretch_sigma": 0.40,
+  "dur_stretch_min": 0.6,
+  "dur_stretch_max": 1.8,
+  "dur_stretch_expand_only": true,
+
+  "p_gap_stretch": 0.02,
+  "gap_stretch_sigma": 0.60,
+  "gap_stretch_min": 0.5,
+  "gap_stretch_max": 2.5,
+  "gap_stretch_expand_only": true
+}

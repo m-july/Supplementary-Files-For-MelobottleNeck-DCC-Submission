@@ -1,0 +1,10 @@
+{
+  "finished": true,
+  "seed": 30303,
+  "wo_bart_pretrain_init": true,
+  "save_dir": ".\\ckpt\\keep-baseline-2604-final\\seed30303\\wo_bart_init",
+  "last_full_ckpt": ".\\ckpt\\keep-baseline-2604-final\\seed30303\\wo_bart_init\\keep_baseline\\keep_last_full.pt",
+  "last_weights_ckpt": ".\\ckpt\\keep-baseline-2604-final\\seed30303\\wo_bart_init\\keep_baseline\\keep_last.pt",
+  "epochs": 5,
+  "global_step": 920
+}

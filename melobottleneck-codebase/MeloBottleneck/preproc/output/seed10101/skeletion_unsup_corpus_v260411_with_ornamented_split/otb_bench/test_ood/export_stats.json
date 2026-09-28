@@ -1,0 +1,83 @@
+{
+  "schema": "simplemono_export_stats_v1",
+  "dataset_kind": "synthetic_otb_benchmark",
+  "split_name": "test_ood",
+  "input_npy": "preproc\\output\\seed10101\\skeletion_unsup_corpus_v260411_with_ornamented_split\\test.npy",
+  "bpm": 80.0,
+  "pos_resolution": 12,
+  "counts": {
+    "sequences": 2644
+  },
+  "tracks": {
+    "x": {
+      "sequences": 2644,
+      "len_events": {
+        "count": 2644,
+        "sum": 280550,
+        "min": 19,
+        "max": 514,
+        "mean": 106.10816944024205
+      },
+      "notes": {
+        "count": 2644,
+        "sum": 275262,
+        "min": 17,
+        "max": 512,
+        "mean": 104.10816944024205
+      },
+      "span_pos": {
+        "count": 2644,
+        "sum": 2426518,
+        "min": 120,
+        "max": 7294,
+        "mean": 917.7450832072617
+      },
+      "duration_80bpm": {
+        "bpm": 80.0,
+        "pos_resolution": 12,
+        "total_seconds": 151657.375,
+        "total_human": "1d18h07m37s",
+        "mean_seconds": 57.35906770045385
+      }
+    },
+    "x_orn": {
+      "sequences": 2644,
+      "len_events": {
+        "count": 2644,
+        "sum": 576614,
+        "min": 38,
+        "max": 514,
+        "mean": 218.0839636913767
+      },
+      "notes": {
+        "count": 2644,
+        "sum": 571326,
+        "min": 36,
+        "max": 512,
+        "mean": 216.0839636913767
+      },
+      "span_pos": {
+        "count": 2644,
+        "sum": 2476680,
+        "min": 120,
+        "max": 7294,
+        "mean": 936.7170953101362
+      },
+      "duration_80bpm": {
+        "bpm": 80.0,
+        "pos_resolution": 12,
+        "total_seconds": 154792.5,
+        "total_human": "1d18h59m52s",
+        "mean_seconds": 58.54481845688352
+      }
+    }
+  },
+  "existing_meta_stats": {
+    "fail_n": 17,
+    "rho_mean": 0.47518444061279297,
+    "rho_min": 0.3333333432674408,
+    "rho_max": 1.0,
+    "avg_extra_tokens": 111.97579425113464,
+    "avg_inserted_tokens": 111.97579425113464
+  }
+}

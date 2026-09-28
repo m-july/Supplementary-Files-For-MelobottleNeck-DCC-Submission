@@ -1,0 +1,53 @@
+{
+  "version": "tavern_silver_o2b_v1_score_only",
+  "tavern_root": "J:\\DATASETS\\MIDIs\\TAVERN-master\\TAVERN-master",
+  "split_name": "test",
+  "melody_mode": "top",
+  "max_len_tokens": 1542,
+  "max_events": 514,
+  "vocab_pkl": ".\\preproc\\output\\seed10101\\skeletion_unsup_corpus_v260411_with_ornamented_split\\SimpleMono.pkl",
+  "rho_range": [
+    0.3333333333,
+    1.0
+  ],
+  "align_config": {
+    "gap_ins": -0.6,
+    "gap_del": -0.9,
+    "w_pitch": 2.5,
+    "w_time": 1.0,
+    "w_dur": 1.0,
+    "w_stability": 0.1,
+    "pitch_pc_sigma": 2.0,
+    "pitch_oct_sigma": 2.0,
+    "time_sigma": 0.15,
+    "dur_sigma": 0.25,
+    "match_bias": 1.6
+  },
+  "filter_config": {
+    "min_theme_notes": 6,
+    "min_var_notes": 10,
+    "min_skel_notes": 6,
+    "min_match_score": 0.5,
+    "min_matches": 6,
+    "min_coverage": 0.7
+  },
+  "counts": {
+    "pairs_found": 807,
+    "pairs_kept": 619,
+    "skip": {
+      "parse_or_empty": 3,
+      "too_short": 19,
+      "low_alignment": 74,
+      "empty_after_trunc": 0,
+      "rho_out_of_range": 92,
+      "exception": 0
+    }
+  },
+  "stats": {
+    "rho_min": 0.3333333333333333,
+    "rho_max": 1.0,
+    "rho_mean": 0.6331891009743772,
+    "coverage_mean": 0.909676719818634,
+    "kept_matches_mean": 20.562197092084006
+  }
+}

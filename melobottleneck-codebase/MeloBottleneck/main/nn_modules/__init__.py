@@ -1,0 +1,3 @@
+from .backbone import MusicBartBackbone
+from .tasks_seq2seq_lm import MusicBartForSeq2SeqLM
+from .tasks_classification import MusicBartForTokenClassification, MusicBartForSequenceClassification

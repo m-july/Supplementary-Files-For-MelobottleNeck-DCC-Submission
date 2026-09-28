@@ -1,0 +1,25 @@
+{
+  "p_trill": 0.15,
+  "trill_min_dur_pos": 4,
+
+  "p_rearticulation": 0.15,
+  "reartic_min_dur_pos": 4,
+
+  "p_turn": 0.15,
+  "turn_min_dur_pos": 4,
+
+  "p_between_run": 0.10,
+  "between_run_min_notes": 2,
+  "between_run_max_notes": 4,
+  "between_run_ins_min_dur_pos": 1,
+  "between_run_ins_max_dur_pos": 2,
+  "between_run_pitch_jitter_prob": 0.30,
+
+  "p_between_insert": 0.15,
+  "p_enable_time_extend_seq": 0.2,
+
+  "pitch_jitter_max_semitones": 4,
+  "grace_overlap_prob": 0.6,
+
+  "p_pair_repeat": 0.15
+}

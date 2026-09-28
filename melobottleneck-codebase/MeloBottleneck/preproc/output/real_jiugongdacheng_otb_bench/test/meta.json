@@ -1,0 +1,29 @@
+{
+  "version": "real_otb_benchmark_v1",
+  "input_dir": "data_jiugong_o2g",
+  "vocab_pkl": "preproc\\output\\seed10101\\skeletion_unsup_corpus_v260411_with_ornamented_split\\SimpleMono.pkl",
+  "split_name": "test",
+  "N_discovered": 20,
+  "N_written": 20,
+  "N_skipped": 0,
+  "L": 514,
+  "max_len_tokens": 1542,
+  "pos_resolution": 12,
+  "rho_filter_min": 0.3333333333,
+  "rho_filter_max": 1.0,
+  "joint_empty_measure_trim": true,
+  "same_onset_mapping_policy": "shared_onset_suffix_mapping",
+  "prefix_truncation_policy": "ornament_prefix_then_backsolve_skeleton_prefix",
+  "stats": {
+    "rho_mean": 0.8067959040403366,
+    "rho_min": 0.6987179517745972,
+    "rho_max": 0.890625,
+    "rho_note_mean": 0.8045424273733257,
+    "rho_note_min": 0.6967741935483871,
+    "rho_note_max": 0.8894736842105263,
+    "resolution_strategy_counts_written": {
+      "name": 20
+    },
+    "skip_reason_counts": {}
+  }
+}

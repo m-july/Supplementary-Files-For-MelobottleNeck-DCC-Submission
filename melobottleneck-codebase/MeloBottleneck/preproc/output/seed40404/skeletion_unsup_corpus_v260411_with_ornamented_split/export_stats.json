@@ -1,0 +1,189 @@
+{
+  "schema": "simplemono_export_stats_v1",
+  "dataset_kind": "pretrain",
+  "bpm": 80.0,
+  "pos_resolution": 12,
+  "max_events": 514,
+  "files": {
+    "train": {
+      "files_assigned": 52339,
+      "files_error": 628,
+      "files_with_sequences": 45341,
+      "files_zero_sequences": 6370
+    },
+    "valid": {
+      "files_assigned": 2908,
+      "files_error": 38,
+      "files_with_sequences": 2514,
+      "files_zero_sequences": 356
+    },
+    "test": {
+      "files_assigned": 2907,
+      "files_error": 31,
+      "files_with_sequences": 2531,
+      "files_zero_sequences": 345
+    }
+  },
+  "splits": {
+    "train": {
+      "counts": {
+        "files_assigned": 52339,
+        "files_with_sequences": 45341,
+        "sequences": 47112
+      },
+      "tracks": {
+        "x": {
+          "sequences": 47112,
+          "len_events": {
+            "count": 47112,
+            "sum": 4911894,
+            "min": 18,
+            "max": 514,
+            "mean": 104.25993377483444
+          },
+          "notes": {
+            "count": 47112,
+            "sum": 4817670,
+            "min": 16,
+            "max": 512,
+            "mean": 102.25993377483444
+          },
+          "span_pos": {
+            "count": 47112,
+            "sum": 41950750,
+            "min": 66,
+            "max": 8839,
+            "mean": 890.4472321276957
+          },
+          "duration_80bpm": {
+            "bpm": 80.0,
+            "pos_resolution": 12,
+            "total_seconds": 2621921.875,
+            "total_human": "30d08h18m42s",
+            "mean_seconds": 55.65295200798097
+          }
+        }
+      }
+    },
+    "valid": {
+      "counts": {
+        "files_assigned": 2908,
+        "files_with_sequences": 2514,
+        "sequences": 2618
+      },
+      "tracks": {
+        "x": {
+          "sequences": 2618,
+          "len_events": {
+            "count": 2618,
+            "sum": 275009,
+            "min": 18,
+            "max": 514,
+            "mean": 105.04545454545455
+          },
+          "notes": {
+            "count": 2618,
+            "sum": 269773,
+            "min": 16,
+            "max": 512,
+            "mean": 103.04545454545455
+          },
+          "span_pos": {
+            "count": 2618,
+            "sum": 2329453,
+            "min": 120,
+            "max": 5935,
+            "mean": 889.783422459893
+          },
+          "duration_80bpm": {
+            "bpm": 80.0,
+            "pos_resolution": 12,
+            "total_seconds": 145590.8125,
+            "total_human": "1d16h26m31s",
+            "mean_seconds": 55.611463903743314
+          }
+        }
+      }
+    },
+    "test": {
+      "counts": {
+        "files_assigned": 2907,
+        "files_with_sequences": 2531,
+        "sequences": 2632
+      },
+      "tracks": {
+        "x": {
+          "sequences": 2632,
+          "len_events": {
+            "count": 2632,
+            "sum": 283883,
+            "min": 18,
+            "max": 514,
+            "mean": 107.85828267477204
+          },
+          "notes": {
+            "count": 2632,
+            "sum": 278619,
+            "min": 16,
+            "max": 512,
+            "mean": 105.85828267477204
+          },
+          "span_pos": {
+            "count": 2632,
+            "sum": 2411158,
+            "min": 96,
+            "max": 7493,
+            "mean": 916.0934650455927
+          },
+          "duration_80bpm": {
+            "bpm": 80.0,
+            "pos_resolution": 12,
+            "total_seconds": 150697.375,
+            "total_human": "1d17h51m37s",
+            "mean_seconds": 57.25584156534954
+          }
+        }
+      }
+    }
+  },
+  "overall": {
+    "counts": {
+      "files_assigned": 58154,
+      "files_with_sequences": 50386,
+      "sequences": 52362
+    },
+    "tracks": {
+      "x": {
+        "sequences": 52362,
+        "len_events": {
+          "count": 52362,
+          "sum": 5470786,
+          "min": 18,
+          "max": 514,
+          "mean": 104.48008097475268
+        },
+        "notes": {
+          "count": 52362,
+          "sum": 5366062,
+          "min": 16,
+          "max": 512,
+          "mean": 102.48008097475268
+        },
+        "span_pos": {
+          "count": 52362,
+          "sum": 46691361,
+          "min": 66,
+          "max": 8839,
+          "mean": 891.7031625988312
+        },
+        "duration_80bpm": {
+          "bpm": 80.0,
+          "pos_resolution": 12,
+          "total_seconds": 2918210.0625,
+          "total_human": "33d18h36m50s",
+          "mean_seconds": 55.73144766242695
+        }
+      }
+    }
+  }
+}

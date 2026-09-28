@@ -1,0 +1,189 @@
+{
+  "schema": "simplemono_export_stats_v1",
+  "dataset_kind": "pretrain",
+  "bpm": 80.0,
+  "pos_resolution": 12,
+  "max_events": 514,
+  "files": {
+    "train": {
+      "files_assigned": 0,
+      "files_error": 0,
+      "files_with_sequences": 0,
+      "files_zero_sequences": 0
+    },
+    "valid": {
+      "files_assigned": 0,
+      "files_error": 0,
+      "files_with_sequences": 0,
+      "files_zero_sequences": 0
+    },
+    "test": {
+      "files_assigned": 224,
+      "files_error": 0,
+      "files_with_sequences": 219,
+      "files_zero_sequences": 5
+    }
+  },
+  "splits": {
+    "train": {
+      "counts": {
+        "files_assigned": 0,
+        "files_with_sequences": 0,
+        "sequences": 0
+      },
+      "tracks": {
+        "x": {
+          "sequences": 0,
+          "len_events": {
+            "count": 0,
+            "sum": 0,
+            "min": null,
+            "max": null,
+            "mean": null
+          },
+          "notes": {
+            "count": 0,
+            "sum": 0,
+            "min": null,
+            "max": null,
+            "mean": null
+          },
+          "span_pos": {
+            "count": 0,
+            "sum": 0,
+            "min": null,
+            "max": null,
+            "mean": null
+          },
+          "duration_80bpm": {
+            "bpm": 80.0,
+            "pos_resolution": 12,
+            "total_seconds": 0.0,
+            "total_human": "0s",
+            "mean_seconds": null
+          }
+        }
+      }
+    },
+    "valid": {
+      "counts": {
+        "files_assigned": 0,
+        "files_with_sequences": 0,
+        "sequences": 0
+      },
+      "tracks": {
+        "x": {
+          "sequences": 0,
+          "len_events": {
+            "count": 0,
+            "sum": 0,
+            "min": null,
+            "max": null,
+            "mean": null
+          },
+          "notes": {
+            "count": 0,
+            "sum": 0,
+            "min": null,
+            "max": null,
+            "mean": null
+          },
+          "span_pos": {
+            "count": 0,
+            "sum": 0,
+            "min": null,
+            "max": null,
+            "mean": null
+          },
+          "duration_80bpm": {
+            "bpm": 80.0,
+            "pos_resolution": 12,
+            "total_seconds": 0.0,
+            "total_human": "0s",
+            "mean_seconds": null
+          }
+        }
+      }
+    },
+    "test": {
+      "counts": {
+        "files_assigned": 224,
+        "files_with_sequences": 219,
+        "sequences": 219
+      },
+      "tracks": {
+        "x": {
+          "sequences": 219,
+          "len_events": {
+            "count": 219,
+            "sum": 30515,
+            "min": 42,
+            "max": 514,
+            "mean": 139.337899543379
+          },
+          "notes": {
+            "count": 219,
+            "sum": 30077,
+            "min": 40,
+            "max": 512,
+            "mean": 137.337899543379
+          },
+          "span_pos": {
+            "count": 219,
+            "sum": 375840,
+            "min": 456,
+            "max": 6912,
+            "mean": 1716.164383561644
+          },
+          "duration_80bpm": {
+            "bpm": 80.0,
+            "pos_resolution": 12,
+            "total_seconds": 23490.0,
+            "total_human": "6h31m30s",
+            "mean_seconds": 107.26027397260273
+          }
+        }
+      }
+    }
+  },
+  "overall": {
+    "counts": {
+      "files_assigned": 224,
+      "files_with_sequences": 219,
+      "sequences": 219
+    },
+    "tracks": {
+      "x": {
+        "sequences": 219,
+        "len_events": {
+          "count": 219,
+          "sum": 30515,
+          "min": 42,
+          "max": 514,
+          "mean": 139.337899543379
+        },
+        "notes": {
+          "count": 219,
+          "sum": 30077,
+          "min": 40,
+          "max": 512,
+          "mean": 137.337899543379
+        },
+        "span_pos": {
+          "count": 219,
+          "sum": 375840,
+          "min": 456,
+          "max": 6912,
+          "mean": 1716.164383561644
+        },
+        "duration_80bpm": {
+          "bpm": 80.0,
+          "pos_resolution": 12,
+          "total_seconds": 23490.0,
+          "total_human": "6h31m30s",
+          "mean_seconds": 107.26027397260273
+        }
+      }
+    }
+  }
+}

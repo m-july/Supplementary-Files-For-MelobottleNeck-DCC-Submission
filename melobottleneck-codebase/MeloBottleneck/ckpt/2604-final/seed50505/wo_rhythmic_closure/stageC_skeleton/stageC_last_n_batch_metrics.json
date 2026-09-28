@@ -1,0 +1,15 @@
+{
+  "C_lastN/window_batches_requested": 50,
+  "C_lastN/window_batches_effective": 50,
+  "C_lastN/total_steps": 1681,
+  "C_lastN/start_step_0based": 1631,
+  "C_lastN/end_step_0based_inclusive": 1680,
+  "C_lastN/recon_ce/dt": 0.09638765003532171,
+  "C_lastN/recon_ce/duration": 0.386436350941658,
+  "C_lastN/recon_ce/pitch": 0.48421698331832885,
+  "C_lastN/recon_ppl/pitch": 1.6229037504915518,
+  "C_lastN/recon_ppl/duration": 1.4717267200653221,
+  "C_lastN/recon_ppl/dt": 1.1011858560016408,
+  "C_lastN/recon_ce/weighted_mean": 0.32234699476510287,
+  "C_lastN/recon_ppl/weighted_geom": 1.3803636718333248
+}

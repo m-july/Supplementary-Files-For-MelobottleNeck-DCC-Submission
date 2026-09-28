@@ -1,0 +1,112 @@
+{
+  "schema": "export_stats_all_splits_v1",
+  "root_dir": "preproc\\output\\tavern_silver_otb",
+  "overall": {
+    "splits_found": 1,
+    "bpm": 80.0,
+    "pos_resolution": 12,
+    "counts": {
+      "sequences": 619
+    },
+    "tracks": {
+      "x": {
+        "notes_sum": 12728,
+        "span_pos_sum": 117702,
+        "seconds_sum": 7356.375
+      },
+      "x_orn": {
+        "notes_sum": 22925,
+        "span_pos_sum": 121285,
+        "seconds_sum": 7580.3125
+      }
+    }
+  },
+  "splits": {
+    "test": {
+      "schema": "simplemono_export_stats_v1",
+      "dataset_kind": "tavern_silver_o2b",
+      "split_name": "test",
+      "tavern_root": "J:\\DATASETS\\MIDIs\\TAVERN-master\\TAVERN-master",
+      "bpm": 80.0,
+      "pos_resolution": 12,
+      "counts": {
+        "pairs_kept": 619,
+        "sequences": 619,
+        "unique_theme_files_kept": 84,
+        "unique_variation_files_kept": 619,
+        "unique_score_files_kept": 703
+      },
+      "tracks": {
+        "x": {
+          "sequences": 619,
+          "len_events": {
+            "count": 619,
+            "sum": 13966,
+            "min": 10,
+            "max": 77,
+            "mean": 22.562197092084006
+          },
+          "notes": {
+            "count": 619,
+            "sum": 12728,
+            "min": 8,
+            "max": 75,
+            "mean": 20.562197092084006
+          },
+          "span_pos": {
+            "count": 619,
+            "sum": 117702,
+            "min": 45,
+            "max": 720,
+            "mean": 190.1486268174475
+          },
+          "duration_80bpm": {
+            "bpm": 80.0,
+            "pos_resolution": 12,
+            "total_seconds": 7356.375,
+            "total_human": "2h02m36s",
+            "mean_seconds": 11.88428917609047
+          }
+        },
+        "x_orn": {
+          "sequences": 619,
+          "len_events": {
+            "count": 619,
+            "sum": 24163,
+            "min": 13,
+            "max": 130,
+            "mean": 39.035541195476576
+          },
+          "notes": {
+            "count": 619,
+            "sum": 22925,
+            "min": 11,
+            "max": 128,
+            "mean": 37.035541195476576
+          },
+          "span_pos": {
+            "count": 619,
+            "sum": 121285,
+            "min": 48,
+            "max": 720,
+            "mean": 195.93699515347333
+          },
+          "duration_80bpm": {
+            "bpm": 80.0,
+            "pos_resolution": 12,
+            "total_seconds": 7580.3125,
+            "total_human": "2h06m20s",
+            "mean_seconds": 12.246062197092083
+          }
+        }
+      },
+      "existing_meta_stats": {
+        "rho_min": 0.3333333333333333,
+        "rho_max": 1.0,
+        "rho_mean": 0.6331891009743772,
+        "coverage_mean": 0.909676719818634,
+        "kept_matches_mean": 20.562197092084006
+      }
+    }
+  }
+}
