@@ -1,7 +1,7 @@
 # Technical Notes (English)
 
 > **Terminology note for paper readers.**  
-> This document intentionally uses the implementation-side terminology found in the code and code comments. Some names differ from the final paper terminology. Before reading this document together with the paper, please refer to **"Terminology Notes: Paper vs. Code"**. For example, the paper's *Timeline Alignment Loss* $\mathcal L_{\mathrm{T}}$ corresponds to the implementation's guided-attention `loss_G`, and the paper's *Ornament Exclusion Loss* $\mathcal L_{\mathrm{E}}$ corresponds to the implementation's insertion `loss_I`. In this document, the code/technical-document terms are retained for easier cross-reference with the repository.
+> This document intentionally uses the implementation-side terminology found in the code and code comments. Some names differ from the final paper terminology. Before reading this document together with the paper, please refer to [Terminology Notes: Paper vs. Code](Terminology%20Notes.md). For example, the paper's *Timeline Alignment Loss* $\mathcal L_{\mathrm{T}}$ corresponds to the implementation's guided-attention `loss_G`, and the paper's *Ornament Exclusion Loss* $\mathcal L_{\mathrm{E}}$ corresponds to the implementation's insertion `loss_I`. In this document, the code/technical-document terms are retained for easier cross-reference with the repository.
 
 > Some parts of this document may be outdated. Please refer primarily to the data in actual code and in the paper.
 

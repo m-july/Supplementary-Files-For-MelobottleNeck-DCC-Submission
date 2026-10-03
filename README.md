@@ -1,26 +1,37 @@
-# Supplementary Materials for MeloBottleneck (DCC Submission Version)
+# Supplementary Materials for MeloBottleneck
 
-This supplementary package mainly contains two archives.
+This repository provides the experiment code, technical documentation, evaluation records, prepared data, and qualitative demo for MeloBottleneck.
 
-## 1. melobottleneck-codebase
+## Repository Contents
 
-This archive contains the MeloBottleneck codebase, including:
+| Location | Contents |
+| --- | --- |
+| [melobottleneck-codebase/MeloBottleneck/](melobottleneck-codebase/MeloBottleneck/) | Source code, [requirements](melobottleneck-codebase/MeloBottleneck/requirements.txt), technical notes, data metadata and vocabulary files, and evaluation records. |
+| [other-materials/output.rar](other-materials/output.rar) | Prepared SimpleMono corpus and benchmark data, including NumPy arrays, metadata, vocabulary files, and decoded MIDI files. Approximately 2.31 GiB unpacked. |
+| [other-materials/retrieval_exp.rar](other-materials/retrieval_exp.rar) | Prepared retrieval queries, query metadata, and inferred document/query skeletons. Approximately 180 MiB unpacked. |
+| [melobottleneck-audio-and-html-demo.zip](melobottleneck-audio-and-html-demo.zip) | A self-contained static webpage with audio and piano-roll examples. |
 
-- Complete source code and requirements.txt;
-- Technical notes in Markdown format;
-- Metadata and statistic reports for the training corpus and benchmark data;
-- Evaluation result records for all experiments, including our method, baselines, and ablations.
+The unpacked sizes above refer to the total file contents of the supplied archives. Model checkpoint weights (`.pt` files) are not included. Evaluation records are stored under [ckpt/](melobottleneck-codebase/MeloBottleneck/ckpt/); the two RAR archives contain prepared data and retrieval intermediates.
 
-## 2. melobottleneck-audio-and-html-demo.zip
+## Getting Started
 
-This archive contains a static demo webpage for paired melody-skeleton playback. The online version is on [https://m-july.github.io/papers/melobottleneck/](https://m-july.github.io/papers/melobottleneck/)
+See the [codebase README](melobottleneck-codebase/MeloBottleneck/README.md) for environment setup, data preparation, training configuration, inference, and retrieval commands.
 
-The demo includes four examples, covering both held-out and in-training samples. It compares MeloBottleneck with the baseline method O2B-Learner. Each example provides piano-roll visualization and interactive audio playback, where the extracted skeleton is overlaid on the original melody. The demo is intended to help reviewers compare the skeleton extraction quality of different models.
+All experiment commands run from `melobottleneck-codebase/MeloBottleneck/`. When unpacking the supplied data:
 
-To use the demo, please extract the archive and open index.html in a local web browser.
+- Extract `output.rar` into `melobottleneck-codebase/MeloBottleneck/preproc/`, preserving the archive's top-level `output/` folder.
+- Extract `retrieval_exp.rar` into `melobottleneck-codebase/MeloBottleneck/`, preserving the archive's top-level `retrieval_exp/` folder.
 
-## Other Materials
+Merge the archive folders with the corresponding repository folders. The codebase README includes command-line extraction examples and explains which workflows require model weights.
 
-All records of training, testing, and retrieval experiments are provided in the `./other-materials` folder.
+## Audio and Piano-Roll Demo
 
-The checkpoint files for all experiments are currently not involved, since they are too big (about 43.0 GB). You can contact `m.july@qq.com` and we will try to figure out how to send them to you (for example, Baidu Netdisk or Google Drive).
+The [online demo](https://m-july.github.io/papers/melobottleneck/) presents four examples from both held-out and training samples. It compares MeloBottleneck with O2B-Learner through piano-roll visualizations and interactive audio playback, with extracted skeletons overlaid on the original melodies.
+
+For local playback, extract `melobottleneck-audio-and-html-demo.zip` and open `index.html` inside the extracted folder. See the README inside the archive for local preview instructions.
+
+## Model Checkpoints
+
+Model weights are distributed separately because of their size. To request checkpoints, contact [m.july@qq.com](mailto:m.july@qq.com) and specify the model variant and seed you need. A suitable transfer method, such as Baidu Netdisk or Google Drive, can then be arranged.
+
+The included evaluation records and [result summaries](melobottleneck-codebase/MeloBottleneck/results-summary.xlsx) can be inspected without checkpoint weights. Skeleton inference requires a compatible checkpoint; training from scratch requires the prepared corpus data and the configuration described in the codebase README.
